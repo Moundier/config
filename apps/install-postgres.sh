@@ -4,3 +4,6 @@ initdb -D /var/lib/postgres/data
 systemctl start postgresql
 systemctl enable postgresql
 systemctl status postgresql
+
+# test command
+psql -U postgres
